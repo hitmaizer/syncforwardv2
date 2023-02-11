@@ -1,6 +1,6 @@
 /* eslint-disable global-require */
 module.exports = {
-  ...require('syncforward/eslintconfig/eslint-react'),
+  ...require('../eslintconfig/eslint-react'),
   parserOptions: {
     root: true,
     tsconfigRootDir: __dirname,
