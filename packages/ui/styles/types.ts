@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import 'styled-components';
 
 import theme from './theme/dark/dark.theme';

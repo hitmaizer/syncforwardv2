@@ -1,6 +1,7 @@
+/* eslint-disable import/no-cycle */
+import dark from './dark';
 import { Colors } from '../../types';
 import baseTheme from '../baseTheme';
-import dark from './dark';
 
 const gaming = {
   ...baseTheme,
