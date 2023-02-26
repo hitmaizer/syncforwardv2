@@ -1,4 +1,6 @@
 import StyledComponentsRegistry from './registry';
+import 'src/font-face.css';
+import '@config/fontsource';
 
 export default function RootLayout({
   // Layouts must accept a children prop.
