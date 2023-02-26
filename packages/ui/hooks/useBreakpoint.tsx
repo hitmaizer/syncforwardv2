@@ -1,10 +1,12 @@
+'use client';
+
 import { useState, useEffect, createContext, useContext, FC } from 'react';
 
 import { breakpoints } from '@styles';
 
 const queryKeysArray = ['xs', 'sm', 'md', 'or'] as const;
 
-type QueryKeys = (typeof queryKeysArray)[number];
+type QueryKeys = typeof queryKeysArray[number];
 type Queries = { [K in QueryKeys]: string | boolean };
 
 const BreakpointContext = createContext({} as Queries);
