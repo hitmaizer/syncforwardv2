@@ -14,90 +14,36 @@
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "paths": {
-      "@config/*": [
-        "./src/config/*"
-      ],
-      "@components": [
-        "./src/components"
-      ],
-      "@components/*": [
-        "./src/components/*"
-      ],
-      "@constants/": [
-        "./src/constants"
-      ],
-      "@constants/*": [
-        "./src/constants/*"
-      ],
-      "@icons": [
-        "../../packages/ui/icons"
-      ],
-      "@lib/*": [
-        "./src/lib/*"
-      ],
-      "@hooks": [
-        "./src/hooks"
-      ],
-      "@graphql/*": [
-        "./src/graphql/*"
-      ],
-      "@types": [
-        "./src/types"
-      ],
-      "@utils/*": [
-        "./src/utils/*"
-      ],
-      "@hooks/*": [
-        "./src/hooks/*"
-      ],
-      "@ui-components": [
-        "../../packages/ui/components"
-      ],
-      "@ui-components/*": [
-        "../../packages/ui/components/*"
-      ],
-      "@ui-utils": [
-        "../../packages/ui/utils"
-      ],
-      "@ui-utils/*": [
-        "../../packages/ui/utils/*"
-      ],
-      "@ui-hooks": [
-        "../../packages/ui/hooks"
-      ],
-      "@ui-hooks/*": [
-        "../../packages/ui/hooks/*"
-      ],
-      "@styles": [
-        "../../packages/ui/styles"
-      ],
-      "@styles/*": [
-        "../../packages/ui/styles/*"
-      ],
-      "@constants": [
-        "./src/constants"
-      ],
-      "@modules/*": [
-        "./src/modules/*"
-      ],
-      "@utils": [
-        "./src/utils"
-      ],
-      "@services/*": [
-        "src/api/*"
-      ],
-      "@store": [
-        "./src/store"
-      ],
-      "@store/*": [
-        "./src/store/*"
-      ]
+      "@config/*": ["./src/config/*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@constants/": ["./src/constants"],
+      "@constants/*": ["./src/constants/*"],
+      "@icons": ["../../packages/ui/icons"],
+      "@lib/*": ["./src/lib/*"],
+      "@hooks": ["./src/hooks"],
+      "@graphql/*": ["./src/graphql/*"],
+      "@types": ["./src/types"],
+      "@utils/*": ["./src/utils/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@ui-components": ["../../packages/ui/components"],
+      "@ui-components/*": ["../../packages/ui/components/*"],
+      "@ui-utils": ["../../packages/ui/utils"],
+      "@ui-utils/*": ["../../packages/ui/utils/*"],
+      "@ui-hooks": ["../../packages/ui/hooks"],
+      "@ui-hooks/*": ["../../packages/ui/hooks/*"],
+      "@styles": ["../../packages/ui/styles"],
+      "@styles/*": ["../../packages/ui/styles/*"],
+      "@constants": ["./src/constants"],
+      "@modules/*": ["./src/modules/*"],
+      "@utils": ["./src/utils"],
+      "@services/*": ["src/api/*"],
+      "@store": ["./src/store"],
+      "@store/*": ["./src/store/*"]
     },
     "strictNullChecks": true
   },
-  "types": [
-    "@types/gtag.js"
-  ],
+  "types": ["@types/gtag.js"],
   "include": [
     ".eslintrc.js",
     "**/*.tsx",
