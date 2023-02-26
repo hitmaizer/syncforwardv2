@@ -1,0 +1,17 @@
+query TestQuery {
+  posts {
+    data {
+      attributes {
+        title
+        image {
+          data {
+            attributes {
+              url
+              placeholder
+            }
+          }
+        }
+      }
+    }
+  }
+}
