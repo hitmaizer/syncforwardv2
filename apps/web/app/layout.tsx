@@ -1,6 +1,8 @@
 import StyledComponentsRegistry from './registry';
 import 'src/font-face.css';
 import '@config/fontsource';
+import AppProvider from 'src/providers/app';
+import { GlobalStyle } from '@styles';
 
 export default function RootLayout({
   // Layouts must accept a children prop.
@@ -12,7 +14,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <AppProvider>
+          <GlobalStyle />
+          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        </AppProvider>
       </body>
     </html>
   );
