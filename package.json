@@ -15,7 +15,8 @@
     "prepare": "husky install",
     "check-format": "prettier --check \"**/*.{ts,tsx,md,json}\"",
     "check-types": "yarn workspace ui tsc --pretty --noEmit",
-    "check-lint": "eslint . --ext ts --ext tsx --ext js"
+    "check-lint": "eslint . --ext ts --ext tsx --ext js",
+    "codegen": "yarn workspace web codegen"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
