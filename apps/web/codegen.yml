@@ -1,0 +1,16 @@
+overwrite: true
+schema: 'http://localhost:1337/graphql' # local
+# schema: 'https://polkastarter-cms.herokuapp.com/graphql' # remote
+documents: 'src/**/*.graphql'
+generates:
+  src/types/index.ts:
+    plugins:
+      - 'typescript'
+  src/:
+    preset: near-operation-file
+    presetConfig:
+      extension: .generated.tsx
+      baseTypesPath: types
+    plugins:
+      - 'typescript-operations'
+      - 'typescript-react-apollo'
