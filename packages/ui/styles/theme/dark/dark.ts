@@ -20,7 +20,7 @@ const customColors = {
   white: colors.white,
   black: colors.black,
   background: {
-    main: '#0E1420',
+    main: '#111318',
     secondary: '#121926',
     tertiary: '#010814',
     gradient:
