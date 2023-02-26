@@ -1,3 +1,5 @@
+'use client';
+
 import { forwardRef, ForwardRefRenderFunction } from 'react';
 
 import styled from 'styled-components';
