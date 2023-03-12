@@ -1,4 +1,4 @@
-import { ReactNode, HTMLAttributes } from 'react';
+import { HTMLAttributes } from 'react';
 
 import { GridGapProps } from 'styled-system';
 
@@ -9,6 +9,6 @@ export interface StackProps
     GridGapProps,
     HTMLAttributes<HTMLDivElement> {
   vertical?: boolean;
-  children: ReactNode;
+  children: React.ReactNode;
   fullWidth?: boolean;
 }

@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 import {
   LayoutProps,
   PositionProps,
@@ -16,6 +14,6 @@ export interface BoxProps
     PositionProps,
     BackgroundColorProps,
     BorderProps {
-  children?: ReactNode;
+  children?: React.ReactNode;
   color?: string;
 }

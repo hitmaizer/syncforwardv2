@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 import {
   LayoutProps,
   ResponsiveValue,
@@ -23,7 +21,7 @@ export interface TextProps extends TypographyProps, SpaceProps, LayoutProps {
   >;
   textTransform?: 'none' | 'uppercase' | 'lowercase' | 'capitalize';
   color?: string;
-  children: ReactNode;
+  children: React.ReactNode;
   glow?: boolean;
 }
 
