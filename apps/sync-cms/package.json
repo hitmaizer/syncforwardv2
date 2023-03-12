@@ -11,14 +11,12 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.6.2",
     "@strapi/plugin-i18n": "4.6.2",
     "@strapi/plugin-users-permissions": "4.6.2",
     "@strapi/provider-upload-cloudinary": "^4.6.2",
     "@strapi/strapi": "4.6.2",
     "@strapi/utils": "^4.6.2",
     "better-sqlite3": "8.0.1",
-    "graphql": "^16.6.0",
     "pg": "^8.9.0",
     "strapi-plugin-placeholder": "^4.3.6"
   },
