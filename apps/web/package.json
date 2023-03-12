@@ -9,19 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13.1.1",
+    "@fontsource/space-grotesk": "^4.5.13",
+    "next": "^13.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "^18.3.0-next-fccf3a9fb-20230213",
+    "styled-components": "^5.3.6",
     "ui": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "eslint": "7.32.0",
-    "eslint-config-custom": "*",
-    "tsconfig": "*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "eslint": "7.32.0",
+    "eslint-config-custom": "*",
+    "eslint-config-next": "^13.2.1",
+    "tsconfig": "*",
     "typescript": "^4.5.3"
   }
 }

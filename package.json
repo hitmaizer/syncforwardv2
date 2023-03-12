@@ -1,5 +1,6 @@
 {
-  "name": "syncforwardv2",
+  "name": "syncforward",
+  "description": "Monorepo with Sync Forward frontend packages and applications",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -10,16 +11,43 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "prepare": "husky install",
+    "check-format": "prettier --check \"**/*.{ts,tsx,md,json}\"",
+    "check-types": "yarn workspace ui tsc --pretty --noEmit",
+    "check-lint": "eslint . --ext ts --ext tsx --ext js",
+    "cms:dev": "yarn workspace sync-cms strapi develop",
+    "web:dev": "yarn workspace web dev"
   },
   "devDependencies": {
+    "conventional-changelog-conventionalcommits": "^4.6.1",
+    "cz-conventional-changelog": "3.3.0",
     "eslint-config-custom": "*",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.7",
     "prettier": "latest",
-    "turbo": "latest"
+    "turbo": "^1.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hitmaizer/syncforwardv2.git"
   },
   "engines": {
     "node": ">=14.0.0"
   },
   "dependencies": {},
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@1.22.19",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "apps/**/*.{js,ts,tsx}": [
+      "prettier --write"
+    ],
+    "packages/ui/!(icons)/*.{js,ts,tsx}": [
+      "prettier --write"
+    ]
+  }
 }

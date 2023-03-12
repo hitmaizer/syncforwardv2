@@ -1,0 +1,4 @@
+{
+  "display": "ESLint",
+  "extends": "./base.json"
+}
