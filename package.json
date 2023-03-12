@@ -16,7 +16,8 @@
     "check-format": "prettier --check \"**/*.{ts,tsx,md,json}\"",
     "check-types": "yarn workspace ui tsc --pretty --noEmit",
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
-    "codegen": "yarn workspace web codegen"
+    "cms:dev": "yarn workspace sync-cms strapi develop",
+    "web:dev": "yarn workspace web dev"
   },
   "devDependencies": {
     "eslint-config-custom": "*",
