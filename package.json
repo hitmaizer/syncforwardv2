@@ -20,13 +20,13 @@
     "web:dev": "yarn workspace web dev"
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
-    "prettier": "latest",
-    "husky": "^7.0.0",
-    "lint-staged": "^12.3.7",
     "conventional-changelog-conventionalcommits": "^4.6.1",
     "cz-conventional-changelog": "3.3.0",
-    "turbo": "latest"
+    "eslint-config-custom": "*",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.7",
+    "prettier": "latest",
+    "turbo": "^1.8.2"
   },
   "repository": {
     "type": "git",
