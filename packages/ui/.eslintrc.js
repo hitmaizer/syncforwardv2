@@ -13,5 +13,4 @@ module.exports = {
     'icon-template.js',
     'storybook-static',
   ],
-  extends: ['plugin:storybook/recommended'],
 };
