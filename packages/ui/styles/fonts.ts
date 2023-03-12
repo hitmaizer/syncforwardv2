@@ -1,1 +1,1 @@
-import '@fontsource/inter/variable.css';
+import '@fontsource/space-grotesk';

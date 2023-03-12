@@ -17,7 +17,8 @@
     "check-types": "yarn workspace ui tsc --pretty --noEmit",
     "check-lint": "eslint . --ext ts --ext tsx --ext js",
     "cms:dev": "yarn workspace sync-cms strapi develop",
-    "web:dev": "yarn workspace web dev"
+    "web:dev": "yarn workspace web dev",
+    "ui:dev": "yarn workspace ui storybook"
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.1",
