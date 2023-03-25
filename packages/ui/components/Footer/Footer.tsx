@@ -15,7 +15,7 @@ const Footer = (props: FooterProps) => {
           return (
             <S.FooterItem key={index}>
               <S.Link href={href}>
-                <S.Icon name={iconName} size="lg" />
+                <S.Icon name={iconName} />
               </S.Link>
             </S.FooterItem>
           );
