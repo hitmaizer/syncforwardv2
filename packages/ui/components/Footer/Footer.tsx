@@ -1,10 +1,29 @@
+/* eslint-disable react/no-array-index-key */
+
 import * as S from './Footer.styles';
 import { FooterProps } from './Footer.types';
 
 const Footer = (props: FooterProps) => {
-  const { children } = props;
+  const { children, footerItems } = props;
 
-  return <S.Container>{children}</S.Container>;
+  return (
+    <S.Container>
+      <S.ItemsWrapper>
+        {footerItems?.map((item, index) => {
+          const { href, iconName } = item;
+
+          return (
+            <S.FooterItem key={index}>
+              <S.Link href={href}>
+                <S.Icon name={iconName} size="lg" />
+              </S.Link>
+            </S.FooterItem>
+          );
+        })}
+      </S.ItemsWrapper>
+      {children}
+    </S.Container>
+  );
 };
 
 export default Footer;
