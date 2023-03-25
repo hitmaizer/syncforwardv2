@@ -1,5 +1,3 @@
-'use client';
-
 import { forwardRef, ForwardRefRenderFunction } from 'react';
 
 import * as S from './Stack.styles';
