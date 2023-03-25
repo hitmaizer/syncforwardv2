@@ -2,6 +2,7 @@
 
 import Navbar from '@ui-components/Navbar';
 import Footer from '@ui-components/Footer';
+import { navItems } from '@constants/navItems';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -10,7 +11,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <Navbar />
+      <Navbar navLinks={navItems} />
       {children}
       <Footer />
     </>
