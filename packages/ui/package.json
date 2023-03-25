@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint . --fix",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "icons": "svgr --template ./icon-template.js --index-template ./icon-index-template.js --ref --ext tsx --svgo-config ./svgo.config.json --no-prettier --replace-attr-values \"#E5E1E1=currentColor\" --no-dimensions  ./icons/source --out-dir ./icons"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
@@ -30,12 +31,14 @@
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
     "@washingtonpost/storybook-addon-web-vitals": "^0.3.0",
+    "@svgr/cli": "5.5.0",
     "babel-loader": "^8.3.0",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
     "eslint-plugin-storybook": "^0.6.11",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-use": "^17.3.2",
     "storybook-addon-designs": "^6.3.1",
     "storybook-addon-grid": "^0.1.0",
     "storybook-addon-next-router": "3.1.1",
