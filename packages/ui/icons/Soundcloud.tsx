@@ -13,5 +13,5 @@ const Soundcloud = styled(SvgComponent)<IconProps>({
 Soundcloud.defaultProps = {
   size: 'md'
 };
-Soundcloud.displayName = "PsSoundcloud";
+Soundcloud.displayName = "SfSoundcloud";
 export default Soundcloud;

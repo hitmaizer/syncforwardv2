@@ -2,7 +2,7 @@
 function template({ template }, opts, { componentName, jsx }) {
   const typeScriptTpl = template.smart({ plugins: ['typescript'] });
   const name = `${componentName.name.replace('Svg', '')}`;
-  const displayName = `Ps${name}`;
+  const displayName = `Sf${name}`;
 
   return typeScriptTpl.ast`
     import { SVGProps, forwardRef } from 'react';

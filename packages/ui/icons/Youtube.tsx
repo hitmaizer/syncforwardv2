@@ -13,5 +13,5 @@ const Youtube = styled(SvgComponent)<IconProps>({
 Youtube.defaultProps = {
   size: 'md'
 };
-Youtube.displayName = "PsYoutube";
+Youtube.displayName = "SfYoutube";
 export default Youtube;

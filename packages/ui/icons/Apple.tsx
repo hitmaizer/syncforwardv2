@@ -13,5 +13,5 @@ const Apple = styled(SvgComponent)<IconProps>({
 Apple.defaultProps = {
   size: 'md'
 };
-Apple.displayName = "PsApple";
+Apple.displayName = "SfApple";
 export default Apple;

@@ -13,5 +13,5 @@ const Beatport = styled(SvgComponent)<IconProps>({
 Beatport.defaultProps = {
   size: 'md'
 };
-Beatport.displayName = "PsBeatport";
+Beatport.displayName = "SfBeatport";
 export default Beatport;

@@ -9,6 +9,8 @@ const baseTheme = {
   fonts: {
     main: '"Space Grotesk", system-ui, -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
     monospace: 'Menlo, monospace',
+    heading:
+      '"IntegralCF", system-ui, -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", "NotoSans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif',
   },
 
   // default fontSizes

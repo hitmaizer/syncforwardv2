@@ -13,5 +13,5 @@ const Spotify = styled(SvgComponent)<IconProps>({
 Spotify.defaultProps = {
   size: 'md'
 };
-Spotify.displayName = "PsSpotify";
+Spotify.displayName = "SfSpotify";
 export default Spotify;
