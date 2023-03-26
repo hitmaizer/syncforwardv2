@@ -10,7 +10,7 @@ function indexTemplate(files) {
 
     compoundExportEntries.push(`Sf${componentName}`);
 
-    return `import Ps${componentName} from './${basename}';`;
+    return `import Sf${componentName} from './${basename}';`;
   });
 
   const iconNames = compoundExportEntries.map(entry => `  '${entry}'`)

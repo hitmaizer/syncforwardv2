@@ -13,5 +13,5 @@ const Bandcamp = styled(SvgComponent)<IconProps>({
 Bandcamp.defaultProps = {
   size: 'md'
 };
-Bandcamp.displayName = "PsBandcamp";
+Bandcamp.displayName = "SfBandcamp";
 export default Bandcamp;
