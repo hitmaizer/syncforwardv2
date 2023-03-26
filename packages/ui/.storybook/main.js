@@ -61,4 +61,5 @@ module.exports = {
     },
   ],
   staticDirs: ['../public'],
+  staticDirs: [{ from: '../assets', to: '/assets' }],
 };
