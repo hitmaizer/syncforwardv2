@@ -12,17 +12,29 @@ export const Hero = styled(Stack).attrs({
 
 export const BackgroundImage = styled(Image).attrs({
   layout: 'fill',
-})``;
+})`
+  z-index: -1;
+`;
 
 export const Content = styled(Stack).attrs({
   vertical: true,
 })``;
 
-export const IntroText = styled(Text).attrs({})``;
+export const IntroText = styled(Text).attrs({
+  m: 0,
+})``;
 
-export const Title = styled(Heading).attrs({})``;
+export const Title = styled(Heading).attrs({
+  mt: 8,
+  mb: 0,
+})`
+  font-size: ${({ theme }) => theme.fontSizes[12]}px;
+`;
 
-export const Subtitle = styled(Text).attrs({})``;
+export const Subtitle = styled(Text).attrs({
+  mt: 10,
+  mb: 0,
+})``;
 
 export const Link = styled(NextLink).attrs({ passHref: true })``;
 
