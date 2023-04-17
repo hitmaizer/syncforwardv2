@@ -1,3 +1,5 @@
+'use client';
+
 import * as S from './Hero.styles';
 import { HeroProps } from './Hero.types';
 
