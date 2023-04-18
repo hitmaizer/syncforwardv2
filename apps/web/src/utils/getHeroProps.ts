@@ -1,4 +1,6 @@
-export const getHeroProps = (data: any) => {
+import { HeroSectionProps } from 'src/types/HeroSection.types';
+
+export const getHeroProps = (data: HeroSectionProps) => {
   return {
     title: data?.title,
     introText: data?.introText,
