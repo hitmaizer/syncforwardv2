@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 import {
   LayoutProps,
   SpaceProps,
@@ -18,5 +16,5 @@ export interface HeadingProps
   as?: TextElement | HeadingElement;
   size?: ResponsiveValue<'h1' | 'h2' | 'h3' | 'h4' | 'h5'>;
   color?: string;
-  children: ReactNode;
+  children: React.ReactNode;
 }
